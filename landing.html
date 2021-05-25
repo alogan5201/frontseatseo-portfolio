@@ -112,24 +112,42 @@
         background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60);
     }
     #slide2-1 .fp-bg{
-        background-image: url(https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60);
+        background: white;
     }
-    #slide2-2 .fp-bg{
-        background-image: url(https://images.unsplash.com/photo-1454908027598-28c44b1716c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60);
+    #slide2-1 {
+        background-color:white !important;
     }
+  
     #slide2-2{
-        background-color: #a3a3a3;
+        background-color: #fff;
     }
-    #slide2-3 .fp-bg{
-        background-image: url(https://images.unsplash.com/photo-1519114056088-b877fe073a5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60);
-    }
+  
     #slide2-3{
-        background-color: #0c798e;
+        background-color: #fff;
     }
     #section3 .fp-bg{
         background-image: url(https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60);
     }
+.fp-slidesNav{
+    text-align: center;
+}
+.fp-controlArrow.fp-next{ border-color: transparent transparent transparent #000 !important;
 
+}
+.fp-controlArrow.fp-prev {
+    border-color: transparent #000 transparent transparent !important;
+}
+.fp-cards-fadeContent .fp-content, .fp-cards-fadeBg .fp-bg{
+    height: 100vh;
+    width: 100vw;
+}
+article {
+    padding: 7em 0 !important;
+}
+p {
+    margin: 1em 0 1rem 0 !important;
+    color: #000;
+}
 
     /* Docs button
      * --------------------------------------- */
@@ -201,7 +219,12 @@
         }
     }
 
-
+.spotlight.accent2 {
+    background-color: HSL(0, 0%, 91.9%) !important;
+}
+.spotlight.accent3 {
+    background-color: white !important;
+}
     /* Configuration
      * --------------------------------------- */
     #actions{
@@ -238,44 +261,107 @@
  
   
 
-<!-- FullPageJs-->
-<ul id="actions">
-  <li id="turnOn" class="active">Turn on</li>
-  <li id="turnOff">Turn off</li>
-  <li id="toggleFadeContent">fadeContent <span>true</span></li>
-  <li id="toggleFadeBackground">fadeBackground <span>true</span></li>
-</ul>
 
-<ul id="menu">
-  <li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
-  <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-  <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-</ul>
+
 <div id="fullpage">
-  <div class="section" id="section1">
-      <div class="fp-bg">   <video id="myVideo" loop muted data-autoplay>
-     
-        <source src="videos/intro.webm" type="video/webm">
-      </video>
-      <div class="layer">
-        <h1>fullPage.js videos</h1>
-      </div></div>
-      <div class="fp-content">
-          Slide 1.1
-      </div>
-  </div>
+ 
   <div class="section" id="section2">
       <div class="slide" id="slide2-1">
           <div class="fp-bg"></div>
           <div class="fp-content">
-              Slide 2.1
+            <article id="one" class="spotlight odd accent1">
+                <div class="inner">
+                <div class="image" data-position="top right">
+                
+                <video width="660"  src="videos/front-page/rocketloop-final.webm"  muted = "1" data-autoplay loop>
+                
+                </video>
+                
+                </div>
+                
+                <div class="content">
+                <h3>  Digital Marketing Agency Focused On Your Success Through
+                Innovative Campaigns</h3>
+                <p> Our digital marketing agency can assist you will all your marketing
+                needs. All the way from search engine optimization campaigns, to
+                customized PPC campaigns and even website design solutions.</p>
+                <ul class="actions">
+                <li><a href="#" class="button primary accent1">Free Zoom Consulation</a></li>
+                </ul>
+                </div>
+                </div>
+                </article>
           </div>
       </div>
       <div class="slide" id="slide2-2">
           <div class="fp-bg"></div>
           <div class="fp-content">
-              Slide 2.2
+            <article id="two" class="spotlight even accent2">
+                <div class="inner">
+                <div class="image" data-position="top right">
+                <video width="660"  src="videos/front-page/social-loop3.webm"  muted = "1" data-autoplay loop>
+                
+                </video>
+                </div>
+                
+                <div class="content">
+                <h3> Facebook Marketing </h3>
+                <p>Our Facebook campaign strategies have delivered an exponential
+                amount of results for our clients. Within days we see incredible
+                feedback! </p>
+                <div class="table-wrapper">
+                <table>
+                <thead>
+                <tr>
+                <th>4,000+</th>
+                <th>100,000+</th>
+                <th>$100 Million+</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>Ads Built</td>
+                <td>Leads Generated</td>
+                <td>In Sales Generated</td>
+                </tr>
+                
+                </tbody>
+                
+                </table>
+                </div>
+                <ul class="actions">
+                <li><a href="#" class="button primary accent2">Learn more</a></li>
+                </ul>
+                </div>
+                </div>
+                </article>
           </div>
+      </div>
+      <div class="slide" id="slide2-3">
+
+        <article id="ppc" class="spotlight odd accent3">
+            <div class="inner">
+            <div class="image" data-position="top right">
+            
+            <video width="660"  src="videos/front-page/ppc-loop.webm"  muted = "1" data-autoplay loop>
+            
+            </video>
+            
+            </div>
+            
+            <div class="content">
+            <h3>  PPC campaigns that get our clients instant results.</h3>
+            <p> With our hybrid of technology and service, we track and report
+            results in real-time.</p>
+            <ul class="alt">
+            
+            </ul>
+            <ul class="actions">
+            <li><a href="#" class="button primary accent1">Free Zoom Consulation</a></li>
+            </ul>
+            </div>
+            </div>
+            </article>
       </div>
   </div>
 </div>
@@ -301,7 +387,7 @@
       var g_fadeBackground = true;
   
       new fullpage('#fullpage', {
-          sectionsColor: ['transparent', '#66995e', '#830619'],
+          sectionsColor: ['#000', '#000', '#000'],
           anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
           menu: '#menu',
          
@@ -332,40 +418,6 @@
 
 
   
-      //action buttons
-      document.getElementById('turnOn').addEventListener('click', function(){
-          removeClass(document.getElementById('actions').querySelector('li.active'), 'active');
-          addClass(this, 'active');
-  
-          fullpage_api.cards.init();
-      });
- 
-      document.getElementById('turnOff').addEventListener('click', function(){
-          removeClass(document.getElementById('actions').querySelector('li.active'), 'active');
-          addClass(this, 'active');
-  
-          fullpage_api.cards.destroy();
-      });
-  
-      document.getElementById('toggleFadeContent').addEventListener('click', function(){
-          removeClass(document.getElementById('actions').querySelector('li.active'), 'active');
-          addClass(this, 'active');
-  
-          fullpage_api.cards.setOption('fadeContent', !g_fadeContent);
-          g_fadeContent = !g_fadeContent;
-  
-          this.querySelector('span').innerHTML = g_fadeContent ? 'true' : 'false';
-      });
-  
-      document.getElementById('toggleFadeBackground').addEventListener('click', function(){
-          removeClass(document.getElementById('actions').querySelector('li.active'), 'active');
-          addClass(this, 'active');
-  
-          fullpage_api.cards.setOption('fadeBackground', !g_fadeBackground);
-          g_fadeBackground = !g_fadeBackground;
-  
-          this.querySelector('span').innerHTML = g_fadeBackground ? 'true' : 'false';
-      });
   
   
       //utils
