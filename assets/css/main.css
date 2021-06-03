@@ -6528,18 +6528,18 @@ display:none;}
 #section0 .layer {
 display:none;}
 #full-bg{
-display:flex;
-align-items: center;
-justify-content: center;
-background-image: url("images/bg.jpg");
-background-position: center;
-background-size: auto 100%;
-width: 100%;
-height: 100%;
-cursor: default;
-
-position: relative;
-text-align: center;}
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    cursor: default;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;}
 
 }
 .grid-wrapper i {
