@@ -223,23 +223,21 @@ font-size: 14pt;
 		
 	  }*/
 .nav-tab {
- 
-	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-	background-color: rgba(42, 44, 55, 0.9);
-	color: #f8f8f2;
-	position: absolute;
-	width: 70em;
-	max-width: 100%;
-	padding: 1em;
-	border-radius: 1.2rem;
-	cursor: default;
-	text-align: center;
-	margin: 0 auto;
-	right: 0;
-	left: 0;
-	z-index: 10;
-	top: 10%;
-	max-height: 10%;
+ transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+background-color: rgba(42, 44, 55, 0.9);
+color: #f8f8f2;
+position: absolute;
+width: 70em;
+max-width: 100%;
+padding: 1em 0 3em 0;
+border-radius: 1.2rem;
+cursor: default;
+text-align: center;
+margin: 0 auto;
+right: 0;
+left: 0;
+z-index: 10;
+top: -20%;
   
 }
 .nav-tab.full{
