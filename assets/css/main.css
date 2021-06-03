@@ -200,24 +200,46 @@ font-size: 14pt;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
+	/*
+	.nav-tab {
+ 
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		background-color: #ffffff;
+		color: #636363;
+		position: absolute;
+		width: 90%;
+		max-width: 100%;
+		padding: 1em;
+		background-color: #f7f7f7;
+		border-top-left-radius: 0.25em;
+		border-top-right-radius: 0.25em;
+		cursor: default;
+		text-align: center;
+		margin: 0 auto;
+		right: 0;
+		left: 0;
+		top: 22%;
+		z-index: 10;
+		
+	  }*/
 .nav-tab {
  
-  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-  background-color: #2a2c37;
-  color: #f8f8f2;
-  position: absolute;
-  width: 70em;
-  max-width: 100%;
-  padding: 1em;
-  
-  border-radius: 1.2rem;
-  cursor: default;
-  text-align: center;
-  margin: 0 auto;
-  right: 0;
-  left: 0;
-  
-  z-index: 10;
+	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+	background-color: rgba(42, 44, 55, 0.9);
+	color: #f8f8f2;
+	position: absolute;
+	width: 70em;
+	max-width: 100%;
+	padding: 1em;
+	border-radius: 1.2rem;
+	cursor: default;
+	text-align: center;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	top: 10%;
+	max-height: 10%;
   
 }
 .nav-tab.full{
@@ -323,27 +345,7 @@ font-size: 14pt;
 			h1 {
 				font-size: 3rem;
 			}
- .nav-tab {
- 
-    transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-    background-color: #ffffff;
-    color: #636363;
-    position: absolute;
-    width: 90%;
-    max-width: 100%;
-    padding: 1em;
-    background-color: #f7f7f7;
-    border-top-left-radius: 0.25em;
-    border-top-right-radius: 0.25em;
-    cursor: default;
-    text-align: center;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-    top: 22%;
-    z-index: 10;
-    
-  }
+
 
 		}
 
@@ -4754,7 +4756,7 @@ padding: 0 0 0 1rem;
 					animation-delay: 6s;
 		  }
 		.company-page .company-banner .image{
-		background-image: url("imagescompany.html-banner.jpg");
+		background-image: url("images/company-banner.jpg");
 		background-repeat: no-repeat;
     background-size: contain;
 	width: 40%;
@@ -6698,7 +6700,7 @@ body.fp-viewing-small-businesses .nav-tab.alt li:nth-child(1){
   height: 50px;
  
 
-  z-index: 999999999;
+  z-index: 99999;
   
 }
 #scroll img {
