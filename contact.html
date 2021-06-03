@@ -378,7 +378,7 @@ text-transform: none;
 
 <!-- FULL PAGE JSsss-->
  
-<div id="fullPage" class="contact-page">
+<div id="fullPage" class="contact-page" style="z-index: 999999999;">
 
       
       <div class="section">
@@ -472,7 +472,9 @@ text-transform: none;
      
       
 </div>
- <div class="three-steps">
+ <div class="three-steps" style="z-index: 9999999999999;
+ position: relative;
+ background: white;">
       <div class="inner">
        
         <div class="grid-wrapper">
@@ -624,8 +626,7 @@ $( document ).ready(function() {
 $("button").click(function(){
   $("p:first").addClass("intro");
 });
-   
-$( "div" ).last().css( "display", "none !important" );
+
 
 
 });
